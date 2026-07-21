@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | WebsTechs The Creative Solutions</title>
+<meta name="description" content="WebsTechs The Creative Solutions — a Jaipur digital marketing agency offering SEO, ads, social media, web development and branding.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+   <a href="index.html" class="brand">
+    <img src="img/logo (2).png" alt="Webstechs Logo" class="logo">
+</a>
+   <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+
+    <!-- Pricing Dropdown -->
+    <li class="dropdown">
+        <a href="pricing.html">Pricing ▾</a>
+        <ul class="dropdown-menu">
+            <li><a href="pricing.html">Website Packages</a></li>
+            <li><a href="seo-pricing.html">SEO Packages</a></li>
+            <li><a href="social-media-pricing.html">Social Media Packages</a></li>
+            <li><a href="ads-pricing.html">Google & Meta Ads</a></li>
+            <li><a href="custom-quote.html">Custom Quote</a></li>
+        </ul>
+    </li>
+
+    <!-- Blog Dropdown -->
+    <li class="dropdown">
+        <a href="blog.html">Blog ▾</a>
+        <ul class="dropdown-menu">
+            <li><a href="blog.html">All Blogs</a></li>
+            <li><a href="seo-blog.html">SEO</a></li>
+            <li><a href="digital-marketing-blog.html">Digital Marketing</a></li>
+            <li><a href="website-blog.html">Website Development</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+        </ul>
+    </li>
+
+    <!-- Career Dropdown -->
+    <li class="dropdown">
+        <a href="career.html">Career ▾</a>
+        <ul class="dropdown-menu">
+            <li><a href="career.html">Current Openings</a></li>
+            <li><a href="internship.html">Internship</a></li>
+            <li><a href="life-at-webstechs.html">Life at Webstechs</a></li>
+            <li><a href="apply-now.html">Apply Now</a></li>
+        </ul>
+    </li>
+
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+<div class="nav-actions">
+      <a href="tel:+918852015443" class="nav-tel"><span class="dot"></span>+91 88520 15443</a>
+     
+    </div>
+  </nav>
+</header>
+
+
+<style>
+
+#logo
+.brand{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.brand .logo{
+    width:220px;
+    height:auto;
+    display:block;
+}#logo
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    list-style:none;
+}
+
+.nav-links li{
+    position:relative;
+}
+
+.dropdown-menu{
+    position:absolute;
+    top:100%;
+    left:0;
+    min-width:220px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+    list-style:none;
+    padding:10px 0;
+    display:none;
+    z-index:999;
+}
+
+.dropdown-menu li{
+    width:100%;
+}
+
+.dropdown-menu li a{
+    display:block;
+    padding:12px 20px;
+    color:#222;
+    text-decoration:none;
+    transition:.3s;
+    white-space:nowrap;
+}
+
+.dropdown-menu li a:hover{
+    background:#0d6efd;
+    color:#fff;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}</style>
+
+
+
+    
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Smart Strategies · Stronger Growth</span>
+      <h1>Digital Marketing that turns <span class="grad">clicks into customers</span></h1>
+      <p class="lead">Webstechs "The Creative Solutions" is a leading Digital Marketing and Website Development Agency in Jaipur. We help startups, local businesses, healthcare brands, manufacturers, and enterprises grow online with SEO, Google Ads, Social Media Marketing, Website Development, Branding, and AI-powered digital solutions. Our focus is simple generate quality leads, increase visibility, and deliver measurable business growth.</p>
+      <div class="hero-cta">
+        <a href="contact.html" class="btn btn-primary">Get a Free Proposal →</a>
+        <a href="services.html" class="btn btn-outline">Explore Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>50+</b><span>HAPPY CLIENTS</span></div>
+        <div class="hero-stat"><b>100+</b><span>PROJECTS DELIVERED</span></div>
+        <div class="hero-stat"><b>24x7</b><span>SUPPORT</span></div>
+       
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-panel">
+        <svg class="trend-line" width="100%" height="230" viewBox="0 0 420 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 170 C 70 190, 100 90, 150 110 C 200 130, 220 40, 280 55 C 330 68, 350 20, 410 18" stroke="url(#g1)" stroke-width="4" stroke-linecap="round" fill="none"/>
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#6f8fff"/><stop offset="1" stop-color="#17c3d6"/>
+            </linearGradient>
+          </defs>
+          <circle cx="410" cy="18" r="6" fill="#17c3d6"/>
+          <text x="20" y="205" fill="rgba(255,255,255,.55)" font-size="12" font-family="Inter">Grow your brand. Boost your business.</text>
+        </svg>
+        <div class="float-card fc1"><div class="fc-label">SEO Score</div><div class="fc-value">85%</div></div>
+        <div class="float-card fc2"><div class="fc-label">Website Traffic</div><div class="fc-value">120K</div></div>
+        <div class="float-card fc3"><div class="fc-label">Conversions</div><div class="fc-value">+45%</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">What We Do</span>
+      <h2>Our Digital Marketing Services</h2>
+      <p>Full-funnel marketing and technology services under one roof — built to fit your growth stage and budget.</p>
+    </div>
+    <div class="grid grid-4">
+      <div class="card"><div class="icn">🔍</div><h3>SEO Services</h3><p>Rank higher, drive organic traffic and outlast the algorithm updates.</p></div>
+      <div class="card"><div class="icn">📢</div><h3>Google &amp; Meta Ads</h3><p>Performance campaigns engineered for cost-per-lead, not just clicks.</p></div>
+      <div class="card"><div class="icn">📱</div><h3>Social Media Marketing</h3><p>Content and community management that builds a real audience.</p></div>
+      <div class="card"><div class="icn">💻</div><h3>Website Development</h3><p>Fast, responsive websites and e-commerce stores built to convert.</p></div>
+      <div class="card"><div class="icn">🎨</div><h3>Branding &amp; Design</h3><p>Identity systems, graphics and packaging that people remember.</p></div>
+      <div class="card"><div class="icn">✉️</div><h3>Email &amp; WhatsApp</h3><p>Automated nurture flows that keep leads warm until they buy.</p></div>
+      <div class="card"><div class="icn">🤖</div><h3>AI Automation</h3><p>Chat, CRM and workflow automation that saves your team hours.</p></div>
+      <div class="card"><div class="icn">⭐</div><h3>GMB &amp; Reputation</h3><p>Local visibility and review management that builds trust fast.</p></div>
+    </div>
+    <div class="text-center mt-32"><a href="services.html" class="btn btn-primary">View All Services →</a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <svg viewBox="0 0 480 420" width="100%" xmlns="http://www.w3.org/2000/svg">
+        <rect x="30" y="220" width="420" height="150" rx="20" fill="#f1f4ff"/>
+        <rect x="70" y="250" width="46" height="90" rx="8" fill="#c9d6ff"/>
+        <rect x="140" y="210" width="46" height="130" rx="8" fill="#8fa4ff"/>
+        <rect x="210" y="160" width="46" height="180" rx="8" fill="#3f6bff"/>
+        <rect x="280" y="120" width="46" height="220" rx="8" fill="#17c3d6"/>
+        <circle cx="380" cy="150" r="70" fill="none" stroke="#3f6bff" stroke-width="10" opacity=".18"/>
+        <circle cx="380" cy="150" r="70" fill="none" stroke="#2f5bff" stroke-width="10" stroke-dasharray="330" stroke-dashoffset="90" stroke-linecap="round"/>
+        <path d="M340 190 L 400 130 M400 130 L 400 160 M400 130 L 370 130" stroke="#0d1840" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div>
+      <span class="eyebrow">About Us</span>
+      <h2>We create digital success for your business</h2>
+      <p class="muted mt-16">At WebsTechs, we combine creativity with technology to deliver digital marketing solutions that help businesses grow, engage and succeed online. Our goal is simple — strategies that bring real, measurable results.</p>
+      <div class="stat-strip mt-32">
+        <div class="stat"><b>24x7</b><span>Support</span></div>
+        <div class="stat"><b>200+</b><span>Happy Clients</span></div>
+        <div class="stat"><b>500+</b><span>Projects Completed</span></div>
+      </div>
+      <a href="about.html" class="btn btn-primary mt-32">Learn More About Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div class="dark-panel">
+      <div style="max-width:600px;">
+        <h2>Why Choose <span style="color:#6f8fff">WebsTechs</span>?</h2>
+        <p class="lead mt-16">We deliver result-driven digital marketing solutions that help your business stand out, get discovered, and grow — backed by a team that actually picks up the phone.</p>
+      </div>
+      <div class="chip-row">
+        <div class="chip"><span class="chip-ico">👥</span>Expert Team</div>
+        <div class="chip"><span class="chip-ico">📊</span>Proven Strategies</div>
+        <div class="chip"><span class="chip-ico">💰</span>Affordable Packages</div>
+        <div class="chip"><span class="chip-ico">⏱️</span>Timely Support</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Testimonials</span>
+      <h2>What Our Clients Say</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="testi"><div class="quote-mark">&ldquo;</div><p>WebsTechs transformed our online presence and brought great results. Highly recommended!</p>
+        <div class="testi-person"><div class="avatar">AS</div><div><b>Amit Sharma</b><span>Business Owner</span></div></div>
+      </div>
+      <div class="testi"><div class="quote-mark">&ldquo;</div><p>Their SEO and social media strategies helped us grow our business significantly.</p>
+        <div class="testi-person"><div class="avatar">NV</div><div><b>Neha Verma</b><span>Marketing Manager</span></div></div>
+      </div>
+      <div class="testi"><div class="quote-mark">&ldquo;</div><p>Fast, professional and result-oriented service. WebsTechs is our go-to digital partner.</p>
+        <div class="testi-person"><div class="avatar">RM</div><div><b>Rohit Mehta</b><span>Founder</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div class="cta-band">
+      <div class="cta-band-inner">
+        <div>
+          <h3>Let's grow your business together</h3>
+          <p>Have a project in mind? Let's discuss how we can help — free, no-obligation consultation.</p>
+        </div>
+        <a href="contact.html" class="btn btn-white">Get a Free Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+ <div class="wrap">
+    <div class="foot-grid">
+
+        <div class="foot-brand">
+
+            <img src="img/logoo.png" alt="Webstechs Logo" class="footer-logo">
+
+            <p>
+                We help businesses in Jaipur and beyond grow online with
+                data-driven strategy, sharp creative and web engineering
+                that actually converts.
+            </p>
+
+            <div class="foot-social">
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/share/19E23GiihD/"
+                   target="_blank"
+                   aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/webstechs"
+                   target="_blank"
+                   aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/webstechs"
+                   target="_blank"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/@YOUR_CHANNEL"
+                   target="_blank"
+                   aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/918852015443"
+                   target="_blank"
+                   aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <!-- Google Business Profile -->
+                <a href="https://g.page/r/YOUR_GMB_LINK"
+                   target="_blank"
+                   aria-label="Google Maps">
+                    <i class="fas fa-location-dot"></i>
+                </a>
+
+            </div>
+
+        </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="career.html">Career</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html#seo">SEO Services</a></li>
+          <li><a href="services.html#google-ads">Google Ads</a></li>
+          <li><a href="services.html#social-media">Social Media Marketing</a></li>
+          <li><a href="services.html#website-development">Website Development</a></li>
+          <li><a href="services.html#branding">Branding &amp; Design</a></li>
+          <li><a href="services.html#ai-automation">AI Automation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <ul class="foot-contact">
+          <li>📍 Chitrakoot Marg, Vaishali Nagar, Jaipur, Rajasthan 302021</li>
+          <li>📞 +91 72978 72406</li>
+          <li>📞 +91 88520 15443</li>
+          <li>✉️ info@webstechs.com</li>
+          <li>🕒 Mon – Sat: 10:00 AM – 8:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 WebsTechs The Creative Solutions. All Rights Reserved.</span>
+      <span><a href="#">Privacy Policy</a>| <a href="#">Terms  Conditions</a></span>
+    </div>
+  </div>
+  <style>.footer-brand{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.footer-logo{
+    width:220px;   /* Size apni requirement ke hisab se change kar sakte ho */
+    height:auto;
+    display:block;
+
+
+
+
+    .footer-logo{
+    width:220px;
+    margin-bottom:20px;
+}
+
+.foot-social{
+    display:flex;
+    gap:12px;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+.foot-social a{
+    width:42px;
+    height:42px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:#1d2a5c;
+    color:#fff;
+    font-size:18px;
+    transition:0.3s ease;
+}
+
+.foot-social a:hover{
+    background:#2f5bff;
+    transform:translateY(-5px);
+}
+}</style></style>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
