@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | WebsTechs The Creative Solutions</title>
+<link rel="icon" type="image/png" href="img/favicon.png.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | WebsTechs The Creative Solutions</title>
+<meta name="description" content="WebsTechs The Creative Solutions — a Jaipur digital marketing agency offering SEO, ads, social media, web development and branding.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="canonical" href="https://webstechs.in/page-url">
+</head>
+<body>
+
+<header class="site-header">
+  
+  <nav class="nav">
+   <a href="index.html" class="brand">
+    <img src="img/logo (2).png" alt="Webstechs Logo" class="logo">
+</a>
+   <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+
+    <!-- Pricing Dropdown -->
+    <li class="dropdown">
+        <a href="pricing.html">Pricing ▾</a>
+        <ul class="dropdown-menu">
+            <li><a href="pricing.html">Website Packages</a></li>
+            <li><a href="seo-pricing.html">SEO Packages</a></li>
+            <li><a href="social-media-pricing.html">Social Media Packages</a></li>
+            <li><a href="ads-pricing.html">Google & Meta Ads</a></li>
+            <li><a href="custom-quote.html">Custom Quote</a></li>
+        </ul>
+    </li>
+
+    <!-- Blog Dropdown -->
+    <li class="dropdown">
+        <a href="blog.html">Blog ▾</a>
+        <ul class="dropdown-menu">
+            <li><a href="blog.html">All Blogs</a></li>
+            <li><a href="seo-blog.html">SEO</a></li>
+            <li><a href="digital-marketing-blog.html">Digital Marketing</a></li>
+            <li><a href="website-blog.html">Website Development</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+        </ul>
+    </li>
+
+    <!-- Career Dropdown -->
+    <li class="dropdown">
+        <a href="career.html">Career ▾</a>
+        <ul class="dropdown-menu">
+            <li><a href="career.html">Current Openings</a></li>
+            <li><a href="internship.html">Internship</a></li>
+            <li><a href="life-at-webstechs.html">Life at Webstechs</a></li>
+            <li><a href="apply-now.html">Apply Now</a></li>
+        </ul>
+    </li>
+
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+<div class="nav-actions">
+      <a href="tel:+918852015443" class="nav-tel"><span class="dot"></span>+91 88520 15443</a>
+     
+    </div>
+  </nav>
+</header>
+
+
+<style>
+
+#logo
+.brand{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.brand .logo{
+    width:220px;
+    height:auto;
+    display:block;
+}#logo
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    list-style:none;
+}
+
+.nav-links li{
+    position:relative;
+}
+
+.dropdown-menu{
+    position:absolute;
+    top:100%;
+    left:0;
+    min-width:220px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+    list-style:none;
+    padding:10px 0;
+    display:none;
+    z-index:999;
+}
+
+.dropdown-menu li{
+    width:100%;
+}
+
+.dropdown-menu li a{
+    display:block;
+    padding:12px 20px;
+    color:#222;
+    text-decoration:none;
+    transition:.3s;
+    white-space:nowrap;
+}
+
+.dropdown-menu li a:hover{
+    background:#0d6efd;
+    color:#fff;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}</style>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb">Home / Portfolio</div>
+    <h1>Work we're proud to put our name on</h1>
+    <p>A snapshot of websites, campaigns and results delivered for clients across Jaipur and beyond.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:36px;">
+      <button class="btn btn-outline btn-sm pf-filter" data-filter="All">All</button>
+<button class="btn btn-outline btn-sm pf-filter" data-filter="Website Projects">Website Projects</button>
+<button class="btn btn-outline btn-sm pf-filter" data-filter="SEO Results">SEO Results</button>
+<button class="btn btn-outline btn-sm pf-filter" data-filter="Social Media Designs">Social Media Designs</button>
+<button class="btn btn-outline btn-sm pf-filter" data-filter="Google Ads Results">Google Ads Results</button>
+<button class="btn btn-outline btn-sm pf-filter" data-filter="Client Case Studies">Client Case Studies</button>
+    </div>
+    <div class="grid grid-3" id="portfolio-grid">
+      
+      <div class="card blog-card" data-cat="Website Projects">
+        <img src="img/ngrow.jpeg" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">Website Projects</span></div>
+        <h3>N Grow Pvt Ltd</h3>
+        <p class="muted mt-8">Full e-commerce rebuild with a 38% faster load time.</p>
+       <a href="https://ngrow.in/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+
+      <div class="card blog-card" data-cat="SEO Results">
+         <img src="img/health.jpeg" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">SEO Results</span></div>
+        <h3>Health Seva Saarthi</h3>
+        <p class="muted mt-8">Organic traffic up 210% in 8 months, page-1 for 40+ keywords.</p>
+       <a href="https://healthsevasaarthi.com/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+
+      <div class="card blog-card" data-cat="Social Media Designs">
+         <img src="img/adhar.png" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">Social Media Designs</span></div>
+        <h3>Adhar classes Jhunjhunu</h3>
+        <p class="muted mt-8">A cohesive Instagram grid that tripled saves &amp; shares.</p>
+       <a href="https://aadharclassesjhunjhunu.online/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+
+      <div class="card blog-card" data-cat="Google Ads Results">
+         <img src="img/om.jpeg" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">Google Ads Results</span></div>
+        <h3>OM Guest House Khatu</h3>
+        <p class="muted mt-8">Cost-per-lead cut by 46% within the first campaign cycle.</p>
+       <a href="https://omguesthousekhatu.com/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+
+      <div class="card blog-card" data-cat="Client Case Studies">
+        <img src="img/growth.jpg" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">Client Case Studies</span></div>
+        <h3>Growth Saarthi</h3>
+        <p class="muted mt-8">From zero online presence to 300+ qualified leads/month.</p>
+       <a href="https://omguethousekhatu.com/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+
+      <div class="card blog-card" data-cat="Website Projects">
+         <img src="img/hire.jpeg" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">Website Projects</span></div>
+        <h3>Hire Archy Pvt Ltd</h3>
+        <p class="muted mt-8">A trust-building site that doubled consultation bookings.</p>
+        <a href="https://omgusthousekhatu.com/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+
+      <div class="card blog-card" data-cat="SEO Results">
+        <img src="img/thayo.jpg" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">SEO Results</span></div>
+        <h3>Thyrocare</h3>
+        <p class="muted mt-8">Ranked #1 for 'Jaipur Medical Thayo services' within 5 months.</p>
+       <a href="https://omgueshousekhatu.com/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+
+      <div class="card blog-card" data-cat="Google Ads Results">
+       <img src="img/mg.jpg" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">Google Ads Results</span></div>
+        <h3>MG Associate</h3>
+        <p class="muted mt-8">3.2x return on ad spend across Search &amp; Display.</p>
+       <a href="https://omgueshoukhatu.com/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+
+      <div class="card blog-card" data-cat="Client Case Studies">
+         <img src="img/elite.png" alt="Project Name" class="portfolio-img">
+        <div class="blog-meta"><span class="tag">Client Case Studies</span></div>
+        <h3>EliteVeda </h3>
+        <p class="muted mt-8">Rebrand + website + ads: 4x online revenue in one year.</p>
+       <a href="https://omgusthousekhatu.com/" target="_blank" class="card-link">
+    View Case Study →
+</a>
+      </div>
+    </div>
+  </div>
+  <style>
+    .portfolio-img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:18px;
+    margin-bottom:20px;
+}
+  </style>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="stat-strip text-center" style="justify-content:center;">
+      <div class="stat"><b>500+</b><span>Projects Completed</span></div>
+      <div class="stat"><b>200+</b><span>Happy Clients</span></div>
+      <div class="stat"><b>4.8x</b><span>Avg. ROI Reported</span></div>
+      <div class="stat"><b>10+</b><span>Industries Served</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div class="cta-band">
+      <div class="cta-band-inner">
+        <div><h3>Want results like these?</h3><p>Let's talk about what's possible for your business.</p></div>
+        <a href="contact.html" class="btn btn-white">Get a Free Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+document.querySelectorAll('.pf-filter').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    document.querySelectorAll('.pf-filter').forEach(b=>b.classList.remove('btn-primary'));
+    btn.classList.add('btn-primary');
+    var f = btn.dataset.filter;
+    document.querySelectorAll('#portfolio-grid [data-cat]').forEach(function(card){
+      card.style.display = (f==='All' || card.dataset.cat===f) ? '' : 'none';
+    });
+  });
+});
+</script>
+
+<footer class="site-footer">
+ <div class="wrap">
+    <div class="foot-grid">
+
+        <div class="foot-brand">
+
+            <img src="img/logoo.png" alt="Webstechs Logo" class="footer-logo">
+
+            <p>
+                We help businesses in Jaipur and beyond grow online with
+                data-driven strategy, sharp creative and web engineering
+                that actually converts.
+            </p>
+
+            <div class="foot-social">
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/YOUR_PAGE"
+                   target="_blank"
+                   aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/YOUR_USERNAME"
+                   target="_blank"
+                   aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/company/YOUR_COMPANY"
+                   target="_blank"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/@YOUR_CHANNEL"
+                   target="_blank"
+                   aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/918852015443"
+                   target="_blank"
+                   aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <!-- Google Business Profile -->
+                <a href="https://g.page/r/YOUR_GMB_LINK"
+                   target="_blank"
+                   aria-label="Google Maps">
+                    <i class="fas fa-location-dot"></i>
+                </a>
+
+            </div>
+
+        </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="career.html">Career</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html#seo">SEO Services</a></li>
+          <li><a href="services.html#google-ads">Google Ads</a></li>
+          <li><a href="services.html#social-media">Social Media Marketing</a></li>
+          <li><a href="services.html#website-development">Website Development</a></li>
+          <li><a href="services.html#branding">Branding &amp; Design</a></li>
+          <li><a href="services.html#ai-automation">AI Automation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <ul class="foot-contact">
+          <li>📍 Chitrakoot Marg, Vaishali Nagar, Jaipur, Rajasthan 302021</li>
+          <li>📞 +91 72978 72406</li>
+          <li>📞 +91 88520 15443</li>
+          <li>✉️ info@webstechs.com</li>
+          <li>🕒 Mon – Sat: 10:00 AM – 8:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 WebsTechs The Creative Solutions. All Rights Reserved.</span>
+      <span><a href="#">Privacy Policy</a>| <a href="#">Terms  Conditions</a></span>
+    </div>
+  </div>
+  <style>.footer-brand{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.footer-logo{
+    width:220px;   /* Size apni requirement ke hisab se change kar sakte ho */
+    height:auto;
+    display:block;
+
+
+
+
+    .footer-logo{
+    width:220px;
+    margin-bottom:20px;
+}
+
+.foot-social{
+    display:flex;
+    gap:12px;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+.foot-social a{
+    width:42px;
+    height:42px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:#1d2a5c;
+    color:#fff;
+    font-size:18px;
+    transition:0.3s ease;
+}
+
+.foot-social a:hover{
+    background:#2f5bff;
+    transform:translateY(-5px);
+}
+}</style></style>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
